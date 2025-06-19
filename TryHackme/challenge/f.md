@@ -20,6 +20,7 @@ nmap -p- --open -T4 -Pn <ip addresss>
 ![image](https://github.com/user-attachments/assets/7b8d7918-c660-4cae-b14d-c97cdea3e7ee)
 
 We got info that 2 ports are up one on 80 and other on 4512
+
 Step 5: To see detail about these port we run another command
 nmap -sC -sV -p80,4512 <ip addresss>
 ![image](https://github.com/user-attachments/assets/56310508-e676-4dfa-80e8-7844d2f6bb0d)
