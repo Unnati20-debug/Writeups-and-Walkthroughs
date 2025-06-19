@@ -12,3 +12,8 @@ Step 1: We open the target machine
 ![image](https://github.com/user-attachments/assets/d09deff1-c056-4d82-81f6-ac14a253367c)
 
 Step 2: We click on c0ldd link to check what it is a twitter profile opens which seems of no use
+![image](https://github.com/user-attachments/assets/e693a820-64cd-4f95-ab31-ab41c018842e)
+
+Step 3: We now go back on first page and open page source file but there also we don’t find anything useful to get user access.
+Step 4: We need to check ports open on the given machine we use nmap scan
+nmap -p- --open -T4 -Pn <ip addresss>
