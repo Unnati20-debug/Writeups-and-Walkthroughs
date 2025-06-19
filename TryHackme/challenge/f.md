@@ -15,6 +15,7 @@ Step 2: We click on c0ldd link to check what it is a twitter profile opens which
 ![image](https://github.com/user-attachments/assets/e693a820-64cd-4f95-ab31-ab41c018842e)
 
 Step 3: We now go back on first page and open page source file but there also we don’t find anything useful to get user access.
+
 Step 4: We need to check ports open on the given machine we use nmap scan
 nmap -p- --open -T4 -Pn <ip addresss>
 ![image](https://github.com/user-attachments/assets/7b8d7918-c660-4cae-b14d-c97cdea3e7ee)
