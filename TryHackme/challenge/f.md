@@ -30,21 +30,29 @@ We now get detailed information about what is running and on which port
 4512- ssh – openssh 7.2p2
 
 Step 6: We use  gobuster to see hidden directories and information
+
 ![image](https://github.com/user-attachments/assets/6a37d61c-e8f1-4965-b0d1-d9faa62f2db3)
 ![image](https://github.com/user-attachments/assets/5b649b0c-6f28-47d1-ab68-bf398f10c854)
+
 We got all this info among this we got hidden directory and we open it first.
 
 Step 7: open http://ip-address/ hidden/
+
 ![image](https://github.com/user-attachments/assets/7f11547d-1ce0-4577-9c6f-e053e2ed0404)
+
 When we open hidden directory we got this info but it is not clear enough we just feel C0ldd, Hugo, Philip , U-R-G-E-N-T and something related to password is there.We even check source file but we don’t get any meaningful information.
 ![image](https://github.com/user-attachments/assets/600718f1-6ee2-4984-a51a-82f9c0bb1518)
 
 Step 8: open http://ip-address/ wp-admin/ page to check any info
+
 ![image](https://github.com/user-attachments/assets/46225569-6542-4dbc-852b-99a42eceb5c1)
+
 Here we got login page we checked its source also we don’t get anything but this login page can be used we get any username and password , we check all other http links from gobuster command but they didn’t have any information
 
 Step 9: We go back to first page, We just get this info by looking at the website and source page that it is wordpress website 
+
 ![image](https://github.com/user-attachments/assets/eb4a5c9c-68e9-46df-b55f-8cd7d0ec8a75)
+
 we can use wpscan to scan in wordpress website
 wpscan --url http://ipaddress --enumerate will scan the site and give us more information about the WordPress CMS.
 How this works:
@@ -53,6 +61,7 @@ wpscan – The command to execute WPScan.
 –enumerate – Tells WPScan to scan the site to learn about plugins, themes, configs, users and other info.
 ![image](https://github.com/user-attachments/assets/8aa8b5cc-9362-4749-9fb1-6c7523b6c58e)
 ![image](https://github.com/user-attachments/assets/d97639b6-2877-4db6-bd58-fabe6082358a) 
+
 We get information and identify users here like c0ldd, hugo, Philip, the cold in person
 
 Step 10: Tried to check c0ldd is user or not by putting a default password passwd123. Got response as below
