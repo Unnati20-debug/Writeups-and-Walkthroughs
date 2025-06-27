@@ -15,7 +15,7 @@ Step 3: We now go back on first page and open page source file but there also we
 
 Step 4: We need to check ports open on the given machine we use nmap scan
 ##
- <pre>'''nmap -p- --open -T4 -Pn <ip addresss>'''</pre>
+ <pre>```nmap -p- --open -T4 -Pn <ip addresss>```</pre>
 ![image](https://github.com/user-attachments/assets/7b8d7918-c660-4cae-b14d-c97cdea3e7ee)
 
 We got info that 2 ports are up one on 80 and other on 4512
